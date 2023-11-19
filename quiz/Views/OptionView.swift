@@ -17,8 +17,9 @@ class OptionView: UIView {
 
     let screengSize = UIScreen.main.bounds
     
-//    var openGameHandler: (() -> Void)?
-    
+    var openActivityVCHandler: (() -> Void)?
+    var openPrivacyVCHandler: (() -> Void)?
+
     func setup() {
         backgraundImageView.frame = frame
         backgraundImageView.image = UIImage(named: "1")
@@ -62,7 +63,7 @@ class OptionView: UIView {
     }
     
     @objc private func tapShareAppButton() {
-        
+        openActivityVCHandler?()
     }
     
     @objc private func tapRateUsButton() {
@@ -70,7 +71,7 @@ class OptionView: UIView {
     }
     
     @objc private func tapPrivacyPoliceButton() {
-
+        openPrivacyVCHandler?()
     }
 }
 

@@ -14,10 +14,12 @@ class MainView: UIView {
     let startButton = UIButton()
     let topicsButton = UIButton()
     let educationButton = UIButton()
+    let topicsView = TopicsView()
 
     let screengSize = UIScreen.main.bounds
     
     var openGameHandler: (() -> Void)?
+    var openEducationVCHandler: (() -> Void)?
     
     func setup() {
         backgraundImageView.frame = frame
@@ -53,7 +55,7 @@ class MainView: UIView {
         topicsButton.setTitle(Strings.topicsButton, for: .normal)
         topicsButton.layer.cornerRadius = 25
         topicsButton.clipsToBounds = true
-        startButton.addTarget(self, action: #selector(tapTopicsButton), for: .touchUpInside)
+        topicsButton.addTarget(self, action: #selector(tapTopicsButton), for: .touchUpInside)
 
         addSubview(educationButton)
         educationButton.snp.makeConstraints { make in
@@ -65,7 +67,8 @@ class MainView: UIView {
         educationButton.setTitle(Strings.educationButton, for: .normal)
         educationButton.layer.cornerRadius = 25
         educationButton.clipsToBounds = true
-        startButton.addTarget(self, action: #selector(tapEducationButton), for: .touchUpInside)
+        educationButton.addTarget(self, action: #selector(tapEducationButton), for: .touchUpInside)
+        
     }
     
     @objc private func tapStartButton() {
@@ -73,11 +76,13 @@ class MainView: UIView {
     }
     
     @objc private func tapTopicsButton() {
-        
+        topicsView.frame = frame
+        topicsView.setup()
+        addSubview(topicsView)
     }
     
     @objc private func tapEducationButton() {
-
+        openEducationVCHandler?()
     }
 }
 

@@ -26,6 +26,9 @@
 		2CC20E8E2B0A650800050941 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC20E8D2B0A650800050941 /* MainTabBarController.swift */; };
 		2CC20E902B0A68E700050941 /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC20E8F2B0A68E700050941 /* OptionViewController.swift */; };
 		2CC20E922B0A692600050941 /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC20E912B0A692600050941 /* OptionView.swift */; };
+		2CC20E942B0A710200050941 /* PrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC20E932B0A710200050941 /* PrivacyViewController.swift */; };
+		2CC20E962B0A733300050941 /* TopicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC20E952B0A733300050941 /* TopicsView.swift */; };
+		2CC20E982B0A76DE00050941 /* EducationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC20E972B0A76DE00050941 /* EducationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +48,9 @@
 		2CC20E8D2B0A650800050941 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		2CC20E8F2B0A68E700050941 /* OptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
 		2CC20E912B0A692600050941 /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
+		2CC20E932B0A710200050941 /* PrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewController.swift; sourceTree = "<group>"; };
+		2CC20E952B0A733300050941 /* TopicsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsView.swift; sourceTree = "<group>"; };
+		2CC20E972B0A76DE00050941 /* EducationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EducationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 			children = (
 				2CC20E802B08EF0900050941 /* MainView.swift */,
 				2CC20E912B0A692600050941 /* OptionView.swift */,
+				2CC20E932B0A710200050941 /* PrivacyViewController.swift */,
+				2CC20E952B0A733300050941 /* TopicsView.swift */,
+				2CC20E972B0A76DE00050941 /* EducationVC.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -212,12 +221,15 @@
 				2C909F312B08E24D000E7269 /* ViewController.swift in Sources */,
 				2CC20E872B08F26500050941 /* Colors.swift in Sources */,
 				2CC20E812B08EF0900050941 /* MainView.swift in Sources */,
+				2CC20E962B0A733300050941 /* TopicsView.swift in Sources */,
 				2CC20E8E2B0A650800050941 /* MainTabBarController.swift in Sources */,
 				2C909F2D2B08E24D000E7269 /* AppDelegate.swift in Sources */,
 				2CC20E902B0A68E700050941 /* OptionViewController.swift in Sources */,
 				2CC20E8B2B08F28800050941 /* Strings.swift in Sources */,
 				2CC20E922B0A692600050941 /* OptionView.swift in Sources */,
+				2CC20E982B0A76DE00050941 /* EducationVC.swift in Sources */,
 				2C909F2F2B08E24D000E7269 /* SceneDelegate.swift in Sources */,
+				2CC20E942B0A710200050941 /* PrivacyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +392,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikita.quiz2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.profile.puzzlegame2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -414,7 +426,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nikita.quiz2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.profile.puzzlegame2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
