@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C909F2D2B08E24D000E7269 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C909F2C2B08E24D000E7269 /* AppDelegate.swift */; };
+		2C909F2F2B08E24D000E7269 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C909F2E2B08E24D000E7269 /* SceneDelegate.swift */; };
+		2C909F312B08E24D000E7269 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C909F302B08E24D000E7269 /* ViewController.swift */; };
+		2C909F342B08E24D000E7269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C909F322B08E24D000E7269 /* Main.storyboard */; };
+		2C909F362B08E24F000E7269 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C909F352B08E24F000E7269 /* Assets.xcassets */; };
+		2C909F392B08E24F000E7269 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C909F372B08E24F000E7269 /* LaunchScreen.storyboard */; };
+		2C909F422B08E906000E7269 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2C909F412B08E906000E7269 /* FirebaseAnalytics */; };
+		2C909F442B08E906000E7269 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 2C909F432B08E906000E7269 /* FirebaseDatabase */; };
+		2C909F462B08E906000E7269 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 2C909F452B08E906000E7269 /* FirebaseFirestore */; };
+		2C909F482B08E906000E7269 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 2C909F472B08E906000E7269 /* FirebaseStorage */; };
+		2C909F4A2B08E98E000E7269 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C909F492B08E98E000E7269 /* GoogleService-Info.plist */; };
+		2CC20E812B08EF0900050941 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC20E802B08EF0900050941 /* MainView.swift */; };
+		2CC20E842B08EF8A00050941 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 2CC20E832B08EF8A00050941 /* SnapKit */; };
+		2CC20E872B08F26500050941 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC20E862B08F26500050941 /* Colors.swift */; };
+		2CC20E892B08F27600050941 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CC20E882B08F27600050941 /* Localizable.strings */; };
+		2CC20E8B2B08F28800050941 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC20E8A2B08F28800050941 /* Strings.swift */; };
+		2CC20E8E2B0A650800050941 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC20E8D2B0A650800050941 /* MainTabBarController.swift */; };
+		2CC20E902B0A68E700050941 /* OptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC20E8F2B0A68E700050941 /* OptionViewController.swift */; };
+		2CC20E922B0A692600050941 /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC20E912B0A692600050941 /* OptionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C909F292B08E24D000E7269 /* quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C909F2C2B08E24D000E7269 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C909F2E2B08E24D000E7269 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2C909F302B08E24D000E7269 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C909F332B08E24D000E7269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C909F352B08E24F000E7269 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C909F382B08E24F000E7269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C909F3A2B08E24F000E7269 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C909F492B08E98E000E7269 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2CC20E802B08EF0900050941 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2CC20E862B08F26500050941 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		2CC20E882B08F27600050941 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		2CC20E8A2B08F28800050941 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		2CC20E8D2B0A650800050941 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		2CC20E8F2B0A68E700050941 /* OptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionViewController.swift; sourceTree = "<group>"; };
+		2CC20E912B0A692600050941 /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C909F262B08E24D000E7269 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C909F442B08E906000E7269 /* FirebaseDatabase in Frameworks */,
+				2C909F482B08E906000E7269 /* FirebaseStorage in Frameworks */,
+				2C909F422B08E906000E7269 /* FirebaseAnalytics in Frameworks */,
+				2C909F462B08E906000E7269 /* FirebaseFirestore in Frameworks */,
+				2CC20E842B08EF8A00050941 /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C909F202B08E24D000E7269 = {
+			isa = PBXGroup;
+			children = (
+				2C909F2B2B08E24D000E7269 /* quiz */,
+				2C909F2A2B08E24D000E7269 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C909F2A2B08E24D000E7269 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C909F292B08E24D000E7269 /* quiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C909F2B2B08E24D000E7269 /* quiz */ = {
+			isa = PBXGroup;
+			children = (
+				2CC20E8C2B0A64EF00050941 /* UITabBar */,
+				2CC20E852B08F24600050941 /* Dependencise */,
+				2CC20E7F2B08EEF700050941 /* Views */,
+				2C909F2C2B08E24D000E7269 /* AppDelegate.swift */,
+				2C909F2E2B08E24D000E7269 /* SceneDelegate.swift */,
+				2C909F302B08E24D000E7269 /* ViewController.swift */,
+				2CC20E8F2B0A68E700050941 /* OptionViewController.swift */,
+				2C909F322B08E24D000E7269 /* Main.storyboard */,
+				2C909F352B08E24F000E7269 /* Assets.xcassets */,
+				2C909F372B08E24F000E7269 /* LaunchScreen.storyboard */,
+				2C909F3A2B08E24F000E7269 /* Info.plist */,
+				2C909F492B08E98E000E7269 /* GoogleService-Info.plist */,
+			);
+			path = quiz;
+			sourceTree = "<group>";
+		};
+		2CC20E7F2B08EEF700050941 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CC20E802B08EF0900050941 /* MainView.swift */,
+				2CC20E912B0A692600050941 /* OptionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2CC20E852B08F24600050941 /* Dependencise */ = {
+			isa = PBXGroup;
+			children = (
+				2CC20E862B08F26500050941 /* Colors.swift */,
+				2CC20E882B08F27600050941 /* Localizable.strings */,
+				2CC20E8A2B08F28800050941 /* Strings.swift */,
+			);
+			path = Dependencise;
+			sourceTree = "<group>";
+		};
+		2CC20E8C2B0A64EF00050941 /* UITabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2CC20E8D2B0A650800050941 /* MainTabBarController.swift */,
+			);
+			path = UITabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C909F282B08E24D000E7269 /* quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C909F3D2B08E24F000E7269 /* Build configuration list for PBXNativeTarget "quiz" */;
+			buildPhases = (
+				2C909F252B08E24D000E7269 /* Sources */,
+				2C909F262B08E24D000E7269 /* Frameworks */,
+				2C909F272B08E24D000E7269 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = quiz;
+			packageProductDependencies = (
+				2C909F412B08E906000E7269 /* FirebaseAnalytics */,
+				2C909F432B08E906000E7269 /* FirebaseDatabase */,
+				2C909F452B08E906000E7269 /* FirebaseFirestore */,
+				2C909F472B08E906000E7269 /* FirebaseStorage */,
+				2CC20E832B08EF8A00050941 /* SnapKit */,
+			);
+			productName = quiz;
+			productReference = 2C909F292B08E24D000E7269 /* quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C909F212B08E24D000E7269 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2C909F282B08E24D000E7269 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2C909F242B08E24D000E7269 /* Build configuration list for PBXProject "quiz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C909F202B08E24D000E7269;
+			packageReferences = (
+				2C909F402B08E906000E7269 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				2CC20E822B08EF8A00050941 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = 2C909F2A2B08E24D000E7269 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C909F282B08E24D000E7269 /* quiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C909F272B08E24D000E7269 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CC20E892B08F27600050941 /* Localizable.strings in Resources */,
+				2C909F392B08E24F000E7269 /* LaunchScreen.storyboard in Resources */,
+				2C909F362B08E24F000E7269 /* Assets.xcassets in Resources */,
+				2C909F342B08E24D000E7269 /* Main.storyboard in Resources */,
+				2C909F4A2B08E98E000E7269 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C909F252B08E24D000E7269 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C909F312B08E24D000E7269 /* ViewController.swift in Sources */,
+				2CC20E872B08F26500050941 /* Colors.swift in Sources */,
+				2CC20E812B08EF0900050941 /* MainView.swift in Sources */,
+				2CC20E8E2B0A650800050941 /* MainTabBarController.swift in Sources */,
+				2C909F2D2B08E24D000E7269 /* AppDelegate.swift in Sources */,
+				2CC20E902B0A68E700050941 /* OptionViewController.swift in Sources */,
+				2CC20E8B2B08F28800050941 /* Strings.swift in Sources */,
+				2CC20E922B0A692600050941 /* OptionView.swift in Sources */,
+				2C909F2F2B08E24D000E7269 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C909F322B08E24D000E7269 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C909F332B08E24D000E7269 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C909F372B08E24F000E7269 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C909F382B08E24F000E7269 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C909F3B2B08E24F000E7269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C909F3C2B08E24F000E7269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C909F3E2B08E24F000E7269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85YCKA99M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = quiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = quiz;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikita.quiz2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C909F3F2B08E24F000E7269 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 85YCKA99M8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = quiz/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = quiz;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nikita.quiz2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C909F242B08E24D000E7269 /* Build configuration list for PBXProject "quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C909F3B2B08E24F000E7269 /* Debug */,
+				2C909F3C2B08E24F000E7269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C909F3D2B08E24F000E7269 /* Build configuration list for PBXNativeTarget "quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C909F3E2B08E24F000E7269 /* Debug */,
+				2C909F3F2B08E24F000E7269 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2C909F402B08E906000E7269 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		2CC20E822B08EF8A00050941 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2C909F412B08E906000E7269 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C909F402B08E906000E7269 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		2C909F432B08E906000E7269 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C909F402B08E906000E7269 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		2C909F452B08E906000E7269 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C909F402B08E906000E7269 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		2C909F472B08E906000E7269 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2C909F402B08E906000E7269 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		2CC20E832B08EF8A00050941 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2CC20E822B08EF8A00050941 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2C909F212B08E24D000E7269 /* Project object */;
+}
