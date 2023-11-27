@@ -16,6 +16,9 @@ class MainTabBarController: UITabBarController {
     
     private func setTabbar() {
         if #available(iOS 13.0, *) {
+
+            UITabBar.appearance().barTintColor = UIColor.black
+
             viewControllers = [
                 getVC(vc: ViewController(), title: "menu", image: UIImage(systemName: "house")),
                 getVC(vc: OptionViewController(), title: "settings", image: UIImage(systemName: "gearshape.fill"))

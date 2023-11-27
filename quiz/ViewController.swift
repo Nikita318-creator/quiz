@@ -40,8 +40,6 @@ class ViewController: UIViewController, WKNavigationDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-//        startProgramm()
     }
     
     func startProgramm() {
